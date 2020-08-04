@@ -32,7 +32,7 @@ cp /home/steam/Game.ini /ark/Game.ini
 cp /home/steam/GameUserSettings.ini /ark/GameUserSettings.ini
 cp /home/steam/crontab /ark/template/crontab
 # Creating directory tree && symbolic link
-[ ! -f /ark/arkmanager.cfg ] && cp /home/steam/arkmanager.cfg /ark/arkmanager.cfg
+cp /home/steam/arkmanager.cfg /ark/arkmanager.cfg
 [ ! -d /ark/log ] && mkdir /ark/log
 [ ! -d /ark/backup ] && mkdir /ark/backup
 [ ! -d /ark/staging ] && mkdir /ark/staging
