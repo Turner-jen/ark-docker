@@ -44,9 +44,9 @@ spec:
         env:
           # Server Parameters
         - name: SESSIONNAME
-          value: IslandArkServer.jenit.org
+          value: Aberration.jenit.org
         - name: SERVERMAP
-          value: TheIsland
+          value: Aberration
         - name: SERVERPASSWORD
           value: ~
         - name: ADMINPASSWORD

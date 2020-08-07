@@ -3,7 +3,7 @@ MAINTAINER coserak
 
 # Var for first config
 ENV SESSIONNAME="Ark Docker" \
-    SERVERMAP="TheIsland" \
+    SERVERMAP="Aberration" \
     SERVERPASSWORD="" \
     ADMINPASSWORD="adminpassword" \
     MAX_PLAYERS=20 \
