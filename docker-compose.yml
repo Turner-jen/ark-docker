@@ -3,7 +3,7 @@ ark:
   image: coserak/ark-docker
   environment:
     - SESSIONNAME=Ark Docker
-    - SERVERMAP=Aberration
+    - SERVERMAP=Aberration_P
     - MAX_PLAYERS=70
     - SERVERPASSWORD="" 
     - ADMINPASSWORD=adminpassword

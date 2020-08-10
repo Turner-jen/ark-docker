@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: island-arkgame
+  name: arkgame
   labels:
     app: arkgame
 spec:
@@ -44,9 +44,9 @@ spec:
         env:
           # Server Parameters
         - name: SESSIONNAME
-          value: Aberration.jenit.org
+          value: ArkServer.jenit.org
         - name: SERVERMAP
-          value: Aberration
+          value: Aberration_P
         - name: SERVERPASSWORD
           value: ~
         - name: ADMINPASSWORD
